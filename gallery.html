@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .back {
+        color: red;
+        text-shadow: 1px 1px gray;
+        text-decoration: underline;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 20px;
+      }
+      body {
+        background-image: url('Galaxy0.gif');
+      }
+      #borderimg {
+        border: 10px solid transparent;
+        border-image: url(pframebig.png) 40 round;
+      }
+      .pictures {
+        width: 100%;
+        overflow: auto;
+        padding-top: 25px;
+        display: flex;
+        justify-content: center;
+      }
+      .pictures div {
+        width: 300px;
+        height: 200px;
+        float: left;
+      }
+      .pictureframes {
+        width: 1300px;
+      }
+      .first {
+        color: white;
+        text-align: center;
+      }
+      .limppu {
+        color: white;
+        font-size: 5px;
+        text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
+        font-family: Comic Sans MS;
+        width: 100px;
+      }
+      .backbutton {
+        width: 100%;
+        text-align: center;
+      }
+      .second {
+        color: red;
+      }
+    </style>
+    <title>Gallery</title>
+  </head>
+  <body>
+    <div class="backbutton">
+      <a class="back" href="homepage.html">&lt;&lt;Back</a>
+    </div>
+     <a class="limppu" href="limppu.html" style="text-align: center;">Limppu</a>
+    <div class="pictures">
+      <div class="pictureframes" id="borderimg"><a href="gallery/pic1.html"><img src="gallery/Sapokka_1.png" alt="Sapokka_1" style="width: 300px;height: 200px;"></a></div>
+      <div class="pictureframes"></div>
+      <div class="pictureframes" id="borderimg"><a href="gallery/pic2.html"><img src="gallery/Sapokka2_1.png" alt="Sapokka2_1" style="width: 300px;height: 200px;"></a></div>
+      <div class="pictureframes"></div>
+      <div class="pictureframes" id="borderimg"><a href="gallery/pic3.html"><img src="gallery/Puutikkala.jpg" alt="Placeholder" style="width: 300px;height: 200px;"></a></div>
+    </div>
+    <p class="first">Lorem ipsum dolor sit amet</p>
+    <p class="second">Lorem ipsum dolor sit amet</p>
+  </body>
+</html>
